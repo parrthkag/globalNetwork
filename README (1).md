@@ -8,10 +8,12 @@ A modern, responsive admin dashboard built with React, Vite, TypeScript, Tailwin
 
 - **Frontend**: React + Vite + TypeScript
 - **Styling**: Tailwind CSS
-- **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
 - **Icons**: Lucide
 - **State Management**: React Hooks
-- **Routing**: React Router DOM
+- **Routing**: React Router
+- **TankStackQuery**
+- **SupaBase**
+  
 
 ---
 
@@ -75,28 +77,10 @@ npm run build
 npm run lint
 ```
 
----
-
-## 💡 Folder Notes
-
-- If you’re using shadcn/ui, your components will be in `src/components/ui`.
-- The `Pages` folder includes the screens (ManageWatchAge, ManageGenres, etc.).
-- Auth and protected routing might be added later.
-
----
-
-## 📸 Preview
-
-[Insert screenshot here if needed]
-
----
-
 ## 🧑‍💻 Author
 
 - **Parth Kag** – [@parrthkag](https://github.com/parrthkag)
 
 ---
 
-## 📄 License
 
-MIT License
