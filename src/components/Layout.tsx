@@ -11,7 +11,7 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   const [loading, setLoading] = useState<boolean>(true);
-  const [session, setSession] = useState<Session | null>(null); 
+  const [_session, setSession] = useState<Session | null>(null); 
   const navigate = useNavigate();
 
   useEffect(() => {

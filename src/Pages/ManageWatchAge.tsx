@@ -9,7 +9,7 @@ interface WatchAge {
 const ManageWatchAge = () => {
     const [watchAges, setWatchAges] = useState<WatchAge[]>([]);
     const [label, setLabel] = useState("");
-    const [loading, setLoading] = useState(false);
+    const [loading, _setLoading] = useState(false);
 
     const handleAdd = () => {
         if (!label.trim()) {

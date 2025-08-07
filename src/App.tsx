@@ -18,6 +18,7 @@ const App: React.FC = () => {
       <BrowserRouter>
         <Routes>
           {/* Public Routes */}
+          <Route path="/" element={<Signup />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
 
